@@ -45,3 +45,25 @@ header{
 .one-col{
     padding: 2%;
 }
+h1{
+    letter-spacing: 1%;
+}
+p{
+    text-align: justify;
+}
+.button-holder{
+    float: right;
+    margin: 0 2% 4% 0;
+}
+.btn{
+    float: right;
+    background: #303840;
+    color: #f6faff;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.btn:hover{
+    background: #58585A;
+}
