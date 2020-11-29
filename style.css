@@ -21,8 +21,9 @@ img{
 }
 header{
     width: 98%;
+ 
 }
-.logo{
+.logo {
     max-width: 220px;
     margin: 2% 0 0 5%;
     float: left;
@@ -34,13 +35,15 @@ header{
     float: right;
     list-style-type: none;
     margin-top: 8%;
-}
+ }
 .social li{
     display: inline;
 
 }
 .banner{
     margin-bottom: 3%;
+    background-color: #241F19;
+
 }
 .one-col{
     padding: 2%;
@@ -63,7 +66,32 @@ p{
     font-weight: 800;
     padding: 8px 12px;
     border-radius: 8px;
+    letter-spacing: 1px;
 }
 .btn:hover{
     background: #58585A;
+}
+.line{
+    clear: both;
+    height: 2px;
+    background-color: #e3e9e9;
+    margin: 4% auto;
+}
+.two-col{
+    float: left;
+    width: 46%;
+    padding: 2%;
+}
+a{
+    color: #607cc3;
+    text-decoration: none;
+}
+.contact{
+    text-align: center;
+    padding-bottom: 3%;
+}
+@media(max-width : 600px){
+    .two-col{
+    width: 97%;
+    }
 }
